@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+ html {
+  scroll-behavior: smooth;
+} 
+
+.logo{
+    height: 3rem;
+    width: 3rem;
+}
+
+/* body {
+    overflow: scroll;
+  }  */
+
+/* HOMEPAGE */
+
+ #homepage{
+    background-image: url('image/background\ image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    height: 80vh;
+    padding: 10rem;
+  } 
+
+  .vl{
+    border-left: 6px solid chocolate;
+    height: 16rem;
+    padding: 1rem;
+  }
+
+  .vl h1{
+      color: antiquewhite;
+      font-size: 2rem;
+  }
+
+  .vl p{
+    color: rgba(250, 235, 215, 0.807);
+    padding-top: 1rem;
+  }
+
+  .button {
+    background-image: linear-gradient(to right, rgb(255, 174, 0) , rgb(255, 0, 212));
+    border-radius: 2rem;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button-2 {
+    border-radius: 2rem;
+    border: 2px solid white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .hompage-button{
+    display: flex;
+  }
+
+  /* FLEX-CONTAINER */
+
+  #flex-container {
+    display: flex;
+    background-color: orange; 
+    background-image: linear-gradient(to right, red, orange);
+    justify-content: space-around;
+    height: 30vh;
+    padding: 3rem;
+    max-width: 100%;
+  }
+
+ #flex-container img{
+  border-radius: 100%;
+  border: 2px solid white;
+  height: 3rem;
+  width: 3rem;
+  background-color: aliceblue;
+ }
+ 
+
+ .get-started h5{
+  float: right;
+  padding-right: 10rem;
+  padding-top: 1rem;
+  text-decoration: none;
+  color: white;
+ }
+
+ .team h5{
+  float: right;
+  padding-right: 4rem;
+  padding-top: 1rem;
+  text-decoration: none;
+  color: white;
+ }
+
+ .management h5{
+  float: right;
+  padding-right: 6rem;
+  padding-top: 1rem;
+  text-decoration: none;
+  color: white;
+ }
+
+ h5:hover {
+  color:black;
+  text-decoration: none;
+}
+
+#flex-container p{
+  color: white;
+}
+
+/* ABOUT-US */
+
+#about-us{
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem;
+  height: 70vh;
+  max-width: 100%;
+}
+
+#about-us h1{
+  font-size: 1.5rem;
+}
+
+#about-us hr{
+  width: 4rem;
+  border-bottom: 5px solid orangered;
+  background-image: linear-gradient(to right, red, violet);
+}
+
+.about-img{
+  height: 55vh;
+  width: 55vh;
+  border-radius: 100%;
+  margin-right: 9rem;
+}
+.about{
+  padding-right: 10rem;
+  padding-left: 5rem;
+}
+
+#about-us h2{
+  font-size: 1.3rem;
+}
+
+/* SERVICE */
+
+#service{
+  background-color: lightgrey;
+  height: 73vh;
+  width: 100%;
+  padding: 2rem 8rem;
+  position: relative;
+}
+
+  
+#service h1{
+  font-size: 1.5rem;
+}
+
+#service hr{
+  width: 4rem;
+  border-bottom: 5px solid orangered;
+  background-image: linear-gradient(to right, red, violet);
+}
+
+.service-image{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1rem;
+  position: relative;
+}
+
+.service-img{
+  height: 40vh;
+  width: 20rem;
+}
+
+.service-design{
+  display: flex;
+  background-color: whitesmoke;
+  width: 15rem;
+  height: 2.5rem;
+  margin-left: 5rem;
+  padding-top: 6px;
+  border-radius: 3px;
+  z-index: 3;
+  position:absolute;
+  top: 15.5rem;
+}
+
+.service-design a h4{
+  color: black;
+  font-size: 1rem;
+  padding-left: 1rem;
+  text-decoration: none;
+  float: right;
+}
+
+.service-design h3{
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 100%;
+  height: 2rem;
+  width: 2rem;
+  text-align: center;
+  background-image: linear-gradient(to right, red, orange);
+}
+
+/* FOOTER */
+
+footer {
+  height: 38vh;
+  padding: 1.5rem 6rem;
+  background-image: linear-gradient(to right, red, orange);
+}
+
+footer p {
+  text-align: center;
+  color: white;
+  padding-top: 1.5rem;
+}
+
+
+.row h2{
+  font-style: italic;
+  font-weight: 800;
+  color: black;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+ .row h5{
+  text-align: center;
+  padding-right: 7rem;
+  color: white;
+} 
+
+.row h6{
+  color: white;
+  padding-top: 1rem;
+  font-weight: 400;
+}
+
+.nav-links li{
+  list-style: none;
+  text-decoration: none;
+}
+
+.row a{
+  text-decoration: none;
+  color: white;
+}
+
+.footer-icon{
+  height: 2rem;
+  width: 2rem;
+}
+
+
